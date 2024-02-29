@@ -25,11 +25,11 @@
     <script>
       const hideFullScreenButton = "hide";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/none.loader.js";
+      const loaderUrl = buildUrl + "/web3.loader.js";
       const config = {
-        dataUrl: buildUrl + "/none.data",
-        frameworkUrl: buildUrl + "/none.framework.js",
-        codeUrl: buildUrl + "/none.wasm",
+        dataUrl: buildUrl + "/web3.data",
+        frameworkUrl: buildUrl + "/web3.framework.js",
+        codeUrl: buildUrl + "/web3.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Floppy Project",
         productName: "Floppy Project",
@@ -63,7 +63,7 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       }
-      canvas.style.background = "url('" + buildUrl + "/none.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/web3.jpg') center / cover";
       loadingCover.style.display = "";
 
       const script = document.createElement("script");
